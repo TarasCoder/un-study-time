@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #262424;
+  background-image: url("src/BGpattern-min.png");
+}
+.logo {
+  width: 100%;
+}
+.imageWrapper {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff !important;
+}
+.wrapperMain {
+  margin-top: 15%;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  border: 3px solid #009edb;
+}
+th {
+  background-color: #009edb;
+  font-size: 20px;
+  color: #fff;
+}
+td {
+  font-size: 16px;
+  font-weight: 600;
+}
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.numberColor {
+  color: #009edb;
+}
+.line {
+  display: block;
+  margin-right: 10%;
+  border-bottom: 2px solid #32b1e2;
+}
+table tr:last-child .line:last-child {
+  border-bottom: none;
+}
+.myButton {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  background-color: #009edb;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px;
+  font-size: 19px;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+}
+.addMoreTime {
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.myButton:hover {
+  background-color: #0084b8;
+  color: white;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.myButton:focus {
+  color: white;
+}
+/* RESPONSIVE */
+@media screen and (min-width: 1500px) {
+  .imageWrapper {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .imageWrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .myButton {
+    width: 60%;
+  }
+}
+.wrapper {
+  width: 80%;
+  margin: 130px auto;
+  text-align: center;
+}
+.datetimepicker {
+  width: 50%;
+  margin: 0 auto;
+}
+h3 {
+  margin-bottom: 20px;
+}
+select {
+  width: 50% !important;
+  margin: 0 auto;
+}
+.block {
+  border: 1px solid #bfe6f5;
+  border-radius: 10px;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.text-inside {
+  font-size: 15px;
+  font-weight: 500;
+}
+#hidden1,
+#hidden2 {
+  display: none;
+}

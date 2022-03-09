@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="imageWrapper">
+      <img class="logo" src="src/LOGO-min.png" alt="logo" />
+    </div>
+
+    <form>
+      <div class="wrapper">
+        <h1 class="title">Example Study Time Calendar</h1>
+        <div class="block">
+          <p class="text-inside">Choose a time for your Study break:</p>
+          <p>
+            <input type="datetime-local" />
+
+            <br />
+          </p>
+
+          <p class="text-inside">
+            Please enter how much time you want to book in your calendar:
+          </p>
+        </div>
+
+        <p class="addMoreTime" id="dropDown1">
+          Want to block out more time? <br />
+          Add another study break to your calendar
+        </p>
+
+        <div id="hidden1">
+          <div class="block">
+            <p class="text-inside">Study Break 2:</p>
+            <input type="datetime-local" />
+
+            <p class="text-inside">
+              Please enter how much time you want to book in your calendar:
+            </p>
+          </div>
+          <p class="addMoreTime" id="dropDown2">
+            Want to block out more time? <br />
+            Add another study break to your calendar
+          </p>
+        </div>
+        <!--hidden 1 close-->
+
+        <!--<br>-->
+        <div id="hidden2">
+          <div class="block">
+            <p class="text-inside">Study Break 3:</p>
+            <input type="datetime-local" />
+
+            <p class="text-inside">
+              Please enter how much time you want to book in your calendar:
+            </p>
+          </div>
+        </div>
+        <!--hidden 2 close-->
+      </div>
+      <button class="myButton">Submit</button>
+    </form>
+  </body>
+</html>
